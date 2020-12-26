@@ -1,0 +1,333 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    background-color: #E1E8F0;
+  }
+  
+  .principal {
+    margin: 50px auto 0px auto ;
+    height: 775px;
+    width: 1400px;
+    padding: 1px;
+    border-radius: 35px;
+    background: #ffffff;    
+  }
+
+  .info_bogota {
+    position: absolute;
+    margin: 110px 0px 50px 0px;
+    height: 90px;
+    width: 100px;
+    background-color: #31328D;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+  }
+  
+  .info_bogota img {
+    margin: 18px 0px 0px 25px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .info_bogota2 {
+    position: absolute;
+    margin-top: 175px;
+    height: 100px;
+    width: 100px;
+    background-color: #7D68EC;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .info_bogota2 h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 36px;
+    margin-right: 10px;
+    color: #ffffff;
+  }
+  
+  .climaBogota {
+    margin: 0px 0px 50px 60px;
+    position: static;
+    height: 300px;
+    width: 1260px;
+    margin-top: 50px;
+    border-radius: 40px;
+    
+  }
+  
+  .climaBogota img {
+    height: 300px;
+    width: 1260px;
+    border-radius: 38px;
+  }
+  
+  .informacion {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    width: 900px;
+  }
+  
+  .definicion2 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .informacion_clima {
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .climas {
+    margin: 0px 65px;
+    height: 260px;
+    width: 300px;
+  }
+  
+  .dias {
+    display: flex;
+    height: 77px;
+    width: 300px;
+    margin: 0px 0px 10px;
+    border-radius: 15px;
+    border: 0.5px solid #e0dcdc;
+  }
+  
+  .dias p {
+    margin-left: auto;
+    margin: auto;
+  }
+  
+  .dias img {
+    width: 90px;
+  }
+  
+  .temperatura {
+    height: 77px;
+    width: 85px;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+    border-radius: 15px;
+    background-color: #7D68EC;
+    z-index: 1;
+  }
+  
+  .temperatura h2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  
+  .imagen {
+    width: 255px;
+    height: 260px;
+    border-radius: 40px;
+    border: 0.5px solid #ece9e9;
+  }
+  
+  .imagen img {
+    width: 255px;
+    height: 260px;
+    border-radius: 40px;
+  }
+  
+  .location1 {
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0px 20px;
+    height: 80px;
+    border: 0.5px solid #ece9e9;
+    border-radius: 35px;
+    width: 260px;
+  }
+  
+  .location1 img {
+    position: absolute;
+    height: 80px;
+    width: 260px;
+    border-radius: 35px;
+  }
+  
+  .location2 {
+    display: flex;
+    margin: 20px 20px;
+    height: 155px;
+    border: 0.5px solid #ece9e9;
+    border-radius: 28px;
+    border-top-right-radius: 38px;
+    border-bottom-right-radius: 38px;
+    width: 260px;
+  }
+  
+  .location2 img {
+    position: absolute;
+    height: 155px;
+    width: 260px;
+    border-radius: 28px;
+  }
+  
+  .location2 .mas {
+    margin-left: 75px;
+    height: 155px;
+    width: 60px;
+    border-radius: 24px;
+    background: #7D68EC;
+    z-index: 1;
+  }
+  
+  .location2 .mas h1 {
+    margin: 55px 0px 0px 20px;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  
+  
+  .francia {
+    background-color: #ffffff;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border: 0.5px solid #ece9e9;
+    margin: 0px 50px;
+    margin-top: -200px;
+    height: 120px;
+    width: 250px;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 5px 10px 0px #a8a6a6;
+            box-shadow: 1px 5px 10px 0px #a8a6a6;
+  }
+  
+  .lyon {
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border: 0.5px solid #ece9e9;
+    margin-left: -300px;
+    margin-top: -48px;
+    height: 120px;
+    width: 250px;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 5px 10px 0px #a8a6a6;
+            box-shadow: 1px 5px 10px 0px #a8a6a6;
+  }
+  
+  .clima_francia {
+    height: 90px;
+    width: 98px;
+    background-color: #DCE8F4;
+    border-radius: 10px;
+    border-top-left-radius: 21px;
+    z-index: 1;
+  }
+  
+  .clima_francia img {
+    margin: 15px 0px 0px 20px;
+    height: 60px;
+    width: 60px;
+  }
+  
+  .otraCity {
+    border: 1px solid;
+    margin-left: -250px;
+    margin-top: 100px;
+    height: 150px;
+    width: 250px;
+    border-style: dashed;
+    border-radius: 5px;
+    border-color: #b6b2b2;
+    border-width: 2px;
+  }
+  
+  .add_locations {
+    position: absolute;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 140px;
+    height: 35px;
+    padding-top: 15px;
+    text-align: center;
+    color: #9381ec;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0.5px solid #e0dcdc;
+    border-radius: 35px;
+  }
+  
+  .otraCity img {
+    position: absolute;
+    height: 150px;
+    width: 250px;
+  }
+
+  .TemFrancia{
+      display: none;
+  }
+
+  @media screen and (max-width: 1534px){
+      .principal{
+         width: 1300px;
+      }
+      .climaBogota img{
+          width: 1180px;
+      }
+      .informacion_clima{
+          width: 1200px;
+      }
+      .imagen{
+        width: 230px;
+        margin-left: -38px;
+        margin-right: 25px;
+      }
+      .info{
+          width: 240px;
+      }
+      .location1{
+          width: 234px !important;
+      }
+     
+}
+  
+
+ @media screen and (max-width: 376px){
+    .principal{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+        width: 340px;
+        height: 100%;
+    }
+    .climaBogota img {
+        margin-left: -50px;
+        width: 320px;
+    }
+    .info_bogota{
+        width: 80px;
+        height: 80px;
+    }
+    .info_bogota img{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+    }
+    .info_bogota2{
+        width: 80px;
+        height: 80px;
+    }
+    .info_bogota2 h1 {
+        margin-top: 24px;
+    }
+    .dias{
+        margin-left: -45px;
+    }
+ }
